@@ -12,11 +12,11 @@
   display: block;
   background-color: #1C1C1C;
   height: 80px;
-  width: 100%;
+  width: 100.3%;
 }
 
 html,body{
-  height: 100.3%;
+  height: 100%;
   overflow-x: hidden;
   font-family: 'Poppins', sans-serif;
   background-image: url("img/Wallpaper.png");
@@ -88,11 +88,6 @@ nav a li span{
   color: #05A869;
 }
 
-section{
-  background-color: transparent;
-  margin-bottom: 50px;
-}
-
 section h1{
   color:#05A869;
   margin: auto;
@@ -112,10 +107,15 @@ section h2{
   text-indent: 55px;
 }
 
-section h2 a{
+h2 a{
   color: #EFEFEF;
   text-decoration: underline #05A869;
 } 
+
+section{
+  background-color: transparent;
+  margin-bottom: 50px;
+}
 
 .primeiropg{
   animation: slide1 2s;
